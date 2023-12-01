@@ -1,0 +1,133 @@
+.animation{
+    width: 200px;
+    height: 300px;
+    background-color: pink;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes color{
+   0% { background-color: pink;}
+
+   25%{ background-color: blue;}
+
+   50%{ background-color: green;}
+
+   75%{ background-color: red;}
+
+   100%{background-color: yellow;}
+}
+
+.box1{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    animation-name: circle;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+@keyframes circle{
+    0%{
+        border-radius: 3px;
+    }
+
+    100%{
+        border-radius: 50%;
+    }
+}
+
+.animation h1{
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    animation-name: Move;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes Move{
+    from{
+        padding-left: 0%;
+    }
+
+    to{ padding-left: 100%;}
+}
+
+.redd{
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+    animation-name: redd;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes redd{
+    from{
+        padding-right: 0%;
+    }
+
+    to{ padding-right: 30%;}
+
+    0% { background-color: pink;}
+
+   25%{ background-color: blue;}
+
+   50%{ background-color: green;}
+
+   75%{ background-color: red;}
+
+   100%{background-color: yellow;}
+}
+
+.bot{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    animation-name: ref;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+} 
+
+.bot h2{
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    animation-name: reh;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes reh{
+    from{
+        font-size: 50%;
+    }
+
+    to{
+        font-size: 100%;
+    }
+}
